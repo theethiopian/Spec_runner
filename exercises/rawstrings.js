@@ -12,9 +12,10 @@ Feel free to use any string methods you wish.
 // Gives back ("returns") the fourth letter in a string
 var printLetter1 = function () { 
 	console.log 
-  ('print the fourth letter in this string').substring(5,4);[3];
+  ('print the fourth letter in this string'[3]);
 
-  return
+
+  return 'print the fourth letter in this string'[3];
 };
 
 /*
@@ -25,5 +26,5 @@ var bridgeString1 = function(myInputString) {
   
   'I wish I could code  in javascript all day, every day!';
 
-  return
+  return 'I wish I could code in javascript all day, every day!' + 'jim'
 };
